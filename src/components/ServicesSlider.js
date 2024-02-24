@@ -68,11 +68,11 @@ const ServicesSlider = () => {
   };
 
   return (
-    <div className="relative mt-40 mb-[110px]">
+    <div id='services' className="relative mt-40 mb-[110px]">
       {/* Title and Description */}
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center p-4">
-        <h2 className="text-3xl font-semibold mb-9">{selectedService.title}</h2>
-        <p className="text-lg lg:w-[900px] sm:w-[600px] md:w-[600px]">{selectedService.description}</p>
+        <h2 className="text-5xl font-semibold mb-9">{selectedService.title}</h2>
+        <p className="text-lg lg:w-[900px] w-[340px] md:w-[600px]">{selectedService.description}</p>
       </div>
 
       {/* Left Arrow */}

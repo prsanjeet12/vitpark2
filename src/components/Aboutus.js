@@ -11,7 +11,7 @@ const AboutUs = () => {
 
 const AboutSection = () => {
   return (
-    <section className="font-serif py-20 lg:w-1/2 bg-gray-100">
+    <section id='about' className="font-serif py-20 lg:w-1/2 bg-gray-100">
       <div className="container mx-auto p-10 ">
         <h2 className="text-3xl lg:text-4xl
          text-center lg:text-center 
@@ -32,7 +32,7 @@ const AboutSection = () => {
 
 const BusinessSection = () => {
   return (
-    <section className="font-serif py-20 lg:w-1/2 bg-gray-100">
+    <section id='business' className="font-serif py-20 lg:w-1/2 bg-gray-100">
       <div className="container mx-auto p-10">
       <h2 className="text-3xl lg:text-4xl text-center
        lg:text-center font-bold text-gray-800 mb-6 relative">Our Business

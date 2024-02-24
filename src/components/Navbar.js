@@ -29,7 +29,7 @@ const Navbar = () => {
       </div>
 
       {/* Centered Menu Icons */}
-      <div className={`w-full ${isMenuOpen ? 'block' : 'hidden'} lg:block lg:flex lg:items-center lg:w-auto`}>
+      <div className={`w-full ${isMenuOpen ? 'block' : 'hidden'}  lg:flex lg:items-center lg:w-auto`}>
         <div className="text-bold lg:mr-[500px] lg:text-center lg:text-xl font-serif lg:p text-white">
           <a href="#" className="block mt-4 lg:mr-9 md:inline-block md:mt-0 text-white hover:text-gray-300 mr-4" onClick={() => smoothScroll('home')}>Home</a>
           <a href="#about" className="block mt-4 md:inline-block lg:mr-9 md:mt-0 text-white hover:text-gray-300 mr-4" onClick={() => smoothScroll('about')}>About Us</a>
